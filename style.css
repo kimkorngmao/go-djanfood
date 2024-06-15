@@ -47,7 +47,12 @@ body{
     gap: 15px;
 }
 
+.web-box .left svg{
+    cursor: pointer;
+}
+
 .web-box .right{
+    cursor: pointer;
     display: flex;
     align-items: center;
     gap: 5px;
@@ -57,7 +62,11 @@ body{
     border: 1px solid rgb(0, 201, 47);
 }
 
-.skip-btn{
+.web-box .right:hover{
+    border-color: rgb(43, 0, 255);
+}
+
+.btn{
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -72,6 +81,11 @@ body{
     text-decoration: none;
     background-color: rgb(16, 0, 88);
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#waiting{
+    font-size: 20px;
+    letter-spacing: 5px;
 }
 
 .link{
